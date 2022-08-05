@@ -90,7 +90,7 @@ class FruitTab extends StatelessWidget {
         SingleChildScrollView(
           scrollDirection: Axis.horizontal,
           child: StreamBuilder(
-              stream: (search != '')
+              stream: (search != '' && search != null)
                   ? FirebaseFirestore.instance
                       .collection('products')
                       .where('type', isEqualTo: 'stonefruits')

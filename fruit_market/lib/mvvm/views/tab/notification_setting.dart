@@ -11,6 +11,7 @@ class NotificationSetting extends StatefulWidget {
 class _NotificationSettingState extends State<NotificationSetting> {
   bool switched1 = false;
   bool switched2 = false;
+
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
@@ -31,7 +32,7 @@ class _NotificationSettingState extends State<NotificationSetting> {
             child: ListTile(
               leading: Icon(
                 Icons.notifications,
-                color: Colors.lightGreen[600],
+                color: AppColor.bg,
                 size: 30,
               ),
               title: Text('My Account'),
@@ -43,7 +44,7 @@ class _NotificationSettingState extends State<NotificationSetting> {
                     switched1 = value;
                   });
                 },
-                activeColor: Colors.lightGreen[600],
+                activeColor: AppColor.bg,
               ),
             ),
           ),
@@ -55,7 +56,7 @@ class _NotificationSettingState extends State<NotificationSetting> {
             child: ListTile(
               leading: Icon(
                 Icons.notifications,
-                color: Colors.lightGreen[600],
+                color: AppColor.bg,
                 size: 30,
               ),
               title: Text('Pramotional Notifacations'),

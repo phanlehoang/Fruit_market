@@ -42,7 +42,7 @@ class _FavouriteState extends State<Favourite> {
                   itemCount: favorite.length,
                   itemBuilder: (BuildContext context, int index) {
                     return Container(
-                      height: Dimensions.height60,
+                      height: Dimensions.height60+2,
                       margin: const EdgeInsets.only(top: 10),
                       padding: const EdgeInsets.only(bottom: 10),
                       decoration: const BoxDecoration(
@@ -157,10 +157,10 @@ class _FavouriteState extends State<Favourite> {
                                   style:
                                       TextStyle(fontWeight: FontWeight.bold)),
                               SizedBox(
-                                height: Dimensions.height60,
+                                height: Dimensions.height20,
                               ),
                               RaisedButton(
-                                color: Colors.amber[700],
+                                color: AppColor.tab,
                                 onPressed: () {
                                   favorites.addtocart(favorite[index]);
                                   favorites.updateQuantity(favorite[index].id,
