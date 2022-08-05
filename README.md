@@ -41,7 +41,8 @@ Hướng dẫn sử dụng app
 7. Ấn vào các item để review trước sản phẩm bao gồm(Detail, giá tiền)
 8. Ở màn My Account có thể trỏ tới các màn User mong muốn
 9. Khi ấn Logout có thể đăng ký 1 tài khoản mới được update trên database.
-10. Có thể thay đổi ảnh avatar.
+10. <img width="839" alt="image" src="https://user-images.githubusercontent.com/90677680/182990370-b1efea0a-d784-4114-952c-5468c1a5baee.png">
+11. Có thể thay đổi ảnh avatar.
 
 Author
 Phan Lê Hoàng
