@@ -1,3 +1,28 @@
+# Fruit Market 
+Xây dựng một ứng dụng Flutter đơn giản, bao gồm UI và xử lí dữ liệu cơ bản.
+- Fruit Market: ứng dụng bán các mặt hàng thực phẩm tươi (fruits) online.
+# Hướng dẫn: Nguyễn Phương Dung, Nguyễn Hoàng Long
+
+# Tác giả:
+- Trần Văn Bình - 19000399
+
+## Giới thiệu về project:
+- Tìm hiểu về Flutter Framework.
+- Tạo ứng dụng Fruit Market.
+- Mô phỏng hoạt động của ứng dụng: hiển thị items, quản lí State bằng callback, thanh toán User, sử dụng Firebase (firestore (và realtime), firebase storage, authenticate).
+
+## Mục tiêu làm project:
+- Áp dụng 1 cách hợp lí nhiều thư viện vào Project nhất có thể biết thêm nhiều kiến thức làm App Flutter :D
+- Tìm hiểu quy trình làm app, vòng đời của 1 sản phẩm.
+- Chạy được ứng dụng trên thiết bị Android hoạt động tốt trên thực tế.
+- Có thêm kinh nghiệm xây dựng, xử lí code, biết thêm về môi trường làm việc trong thực tế.
+- Hoàn thành kì thực tập.
+- Tìm kiếm cơ hội làm việc tại 2NF :DD
+
+## Yêu cầu về phần mềm:
+
+**Phiên bản:**
+- Sử dụng phiên bản Flutter > 2.0, hỗ trợ Null Safety.
 Hướng dẫn cài đặt
 1. Cài đặt ngôn ngữ dart, flutter, php và setup php có thể chạy toàn cục thông qua cmd
 2. Khởi động demo (Khuyến khích sử dụng cách 3.1)
