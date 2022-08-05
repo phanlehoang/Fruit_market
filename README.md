@@ -4,7 +4,7 @@ Xây dựng một ứng dụng Flutter đơn giản, bao gồm UI và xử lí d
 # Hướng dẫn: Nguyễn Phương Dung, Nguyễn Hoàng Long
 
 # Tác giả:
-- Trần Văn Bình - 19000399
+-Phan Lê Hoàng - 19000431
 
 ## Giới thiệu về project:
 - Tìm hiểu về Flutter Framework.
